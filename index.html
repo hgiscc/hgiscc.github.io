@@ -1,13 +1,106 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>個人網頁</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <title>個人網站</title>
 </head>
+
 <body>
-  <div>
-    <h1>徐翊甄</h1>
-    <br></br>
-    <a> a </a>
-  </div>
+    <header>
+        <h1 class=fort>徐翊甄</h1>
+        <h3 class=fort>pompompurin lover</h3>
+    </header>
+    <nav>
+        <p style="color:#faf1ca">well come to my personal website!</p>
+    </nav>
+        <hr size="5px" color="#947254">
+    <section>
+        <h3>學歷</h3>
+        <ul>
+            <li class="fa fa-mortar-board">畢業於:</li>
+             <ul>
+                 <li type="disc">新竹縣立博愛國民小學</li>
+                 <li type="disc">新竹縣立成功國民中學</li>
+                 <li type="disc">國立新竹女子高級中學</li>
+             </ul>
+            <li class="fa fa-mortar-board">現就讀元智大學資訊工程學系</li>
+        </ul>
+
+    </section>
+
+    <hr size="5px" color="#947254">
+    <section>
+        <h3>興趣</h3>
+        <ul>
+            <li class="fa fa-thumbs-up">繪畫</li>
+            <ul>
+                <li type="disc">插畫，或是一些日式漫畫風角色</li>
+            </ul>
+            <li class="fa fa-thumbs-up">打電動</li>
+            <ul>
+                <li type="disc">目前熱衷於明日方舟</li>
+            </ul>
+        </ul>
+    </section>
+    <hr size="5px" color="#947254">
+    <section>
+        <h3>畫廊</h3>
+        <div style="">
+            <a class="button" href="https://x.com/lizard_ummm">
+                <i class="fa fa-twitter"></i>
+            </a>
+
+            <p><i class="fa fa-caret-up"></i>see more on twitter</p>
+        </div>
+        <div class="column"><img src="img_pumpumpurin.png" width="400px" height="1000px" ></div>
+        <div class="column"><img src="img_amiya.png" width="400px" height="1000px" ></div>
+        <div class="column"><img src="img_pochirock.png" width="400px" height="1000px" ></div>
+
+    </section>
+    <p align=middle>P.S. 這是我畫的</p>
 </body>
+
+<style>
+.first {
+    background-color: #947254;
+}
+body {
+	background-color: #f5e9ab;
+}
+.fort {
+	color: #f5f0d5;
+}
+header {
+    background-color: #947254;
+    padding: 40px;
+}
+img {
+    height: 250px;
+    object-fit: cover;
+}
+.column {
+    border: 5px solid #947254;
+    padding: 15px;
+    float: left;
+}
+nav {
+    background-color: #5c4532;
+    font-color: #f5e9ab;
+    overflow: hidden;
+}
+.button {
+    background-color: #c9c9c9;
+    padding: 10px;
+    border-radius: 50%;
+    color: #303030;
+    font-size: 16px;
+}
+.button:hover {
+    background-color: #f2f2f2;
+}
+.button:active {
+    background-color: #f5e9ab;
+}
+</style>
 </html>
